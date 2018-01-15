@@ -10,3 +10,6 @@ A RESTful API, which enables access to cluster jobs, submitted with Nextflow.
 - [ ] Implement database for storing the meta information of a Nextflow workflow
 - [ ] Implement information transfer in an example Nextflow script, with database INSERT commands 
 
+## Brainstorming
+
+![brainstorming](./figs/brainstorming_nfapi.jpeg)
