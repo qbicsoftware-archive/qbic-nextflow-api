@@ -50,3 +50,7 @@ Accessible in the **workflow completion** and **error handlers** only:
 * _errorMessage_
 * _errorReport_
 
+An additional information would be a userId, which is a meta information that can come from a third party software, such as a portal runtime environment.
+
+This information can be provided in a metadata.yaml file, which gets parsed in the beginning of the pipeline execution and grabs user information.
+
