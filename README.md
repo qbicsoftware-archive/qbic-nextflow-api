@@ -17,7 +17,7 @@ A RESTful API, which enables access to cluster jobs, submitted with Nextflow.
 ## Necessary information
 
 ### General workflow information
-
+This can be information, which is actually interesting for doing workflow statistics. For example get workflows of a certain type, from a certain userID, workflows that failed, workflows that succeeded and so on.
 
 ### Workflow specific information
 Specific information can be captured by the Nextflow's [introspection features](https://www.nextflow.io/docs/latest/metadata.html):
