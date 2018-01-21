@@ -13,3 +13,40 @@ A RESTful API, which enables access to cluster jobs, submitted with Nextflow.
 ## Brainstorming
 
 ![brainstorming](./figs/brainstorming_nfapi.jpeg)
+
+## Necessary information
+
+### General workflow information
+
+
+### Workflow specific information
+Specific information can be captured by the Nextflow's [introspection features](https://www.nextflow.io/docs/latest/metadata.html):
+
+* scriptId
+* scriptName
+* scriptFile
+* repository
+* commitId
+* revision
+* projectDir
+* launchDir
+* workDir
+* configFiles
+* container
+* commandLine
+* profile
+* runName
+* sessionId
+* resume
+* start
+
+Accessible in the **workflow completion** handler only:
+* _complete_
+* _duration_
+
+Accessible in the **workflow completion** and **error handlers** only:
+* _success_
+* _exitStatus_
+* _errorMessage_
+* _errorReport_
+
